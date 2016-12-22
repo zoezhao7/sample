@@ -18,6 +18,15 @@ require __DIR__.'/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
+| Register The helpers
+|--------------------------------------------------------------------------
+|
+*/
+
+require __DIR__.'/helpers.php';
+
+/*
+|--------------------------------------------------------------------------
 | Include The Compiled Class File
 |--------------------------------------------------------------------------
 |
@@ -28,6 +37,7 @@ require __DIR__.'/../vendor/autoload.php';
 */
 
 $compiledPath = __DIR__.'/cache/compiled.php';
+
 
 if (file_exists($compiledPath)) {
     require $compiledPath;

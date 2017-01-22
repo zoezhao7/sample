@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c96ae6e4-c336-417d-8a36-5a8009271524" name="139.224.2.116" url="http://139.224.2.116">
+        <fileTransfer host="139.224.2.116" port="21" rootFolder="/member.mxcf.cn">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
